@@ -1,5 +1,6 @@
 return {
   "nvim-lualine/lualine.nvim",
+  lazy = false,
   event = "VeryLazy", -- Load when Neovim starts
   dependencies = { "nvim-tree/nvim-web-devicons" }, -- Optional: Adds icons
   config = function()

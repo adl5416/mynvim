@@ -70,3 +70,13 @@ vim.opt.cursorline = true
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
 
+-- ========== Indentation ==========
+vim.opt.expandtab = true            -- Use spaces instead of tabs
+vim.opt.tabstop = 4                 -- 4 spaces for a tab
+vim.opt.shiftwidth = 4              -- Indent by 4 spaces
+vim.opt.softtabstop = 4             -- Treat backspace properly
+vim.opt.autoindent = true           -- Keep indentation from previous line
+vim.opt.smartindent = true          -- Enable smart indentation
+
+vim.opt.swapfile = false            -- Disable swap files
+vim.opt.backup = false              -- Disable backup files
