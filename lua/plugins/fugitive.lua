@@ -18,9 +18,8 @@ return {
     { "<leader>gl", "<cmd>Git log --oneline --graph --decorate<CR>", desc = "Git Log" },
     { "<leader>gL", "<cmd>Git log --stat<CR>", desc = "Git Log (Detailed)" },
     -- Git Reset & Checkout
-    { "<leader>gr", "<cmd>Git reset HEAD~1<CR>", desc = "Git Reset Last Commit" },
-    { "<leader>gR", "<cmd>Git restore --staged .<CR>", desc = "Git Unstage All" },
-    { "<leader>gx", "<cmd>Git checkout -- .<CR>", desc = "Git Discard Changes" },
+    { "<leader>gr", "<cmd>Git restore --staged .<CR>", desc = "Git Unstage All" },
+    { "<leader>gR", "<cmd>Git restore .<CR>", desc = "Git Restore All" },
   },
 }
 
