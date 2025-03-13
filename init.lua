@@ -6,4 +6,4 @@ require("core.keymaps") -- Load keymaps
 require("config.lazy")
 
 -- Set the default theme
-vim.cmd("colorscheme nightfox")
+vim.cmd("colorscheme carbonfox")
