@@ -10,4 +10,17 @@ return {
         { "<leader>gs", "<cmd>Telescope git_status<CR>", desc = "Git Status" },
         { "<leader>gt", "<cmd>Telescope git_stash<CR>", desc = "Git Stash" },
     },
+    opts = { -- Add options here
+        defaults = {
+            mappings = {
+                i = {  -- Insert mode mappings
+                    ["<C-\\>"] = require("telescope.actions").select_vertical,  -- Open in vertical split
+                    ["<C-|>"] = require("telescope.actions").select_vertical,  --- Open in vertical split
+                    ["<C-_>"] = require("telescope.actions").select_horizontal, -- Open in horizontal split
+                    ["<C-->"] = require("telescope.actions").select_horizontal, -- Open in horizontal split
+                },
+            }
+        }
+    }
 }
+
