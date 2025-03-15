@@ -1,4 +1,1 @@
-return {
-    "folke/which-key.nvim",
-    lazy = false,
-}
+return { "folke/which-key.nvim" }

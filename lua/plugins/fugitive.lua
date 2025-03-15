@@ -1,6 +1,6 @@
 return {
   "tpope/vim-fugitive",
-  cmd = { "Git", "G"}, -- Load only when running Git commands
+  cmd = { "Git", "G" }, -- Load only when running Git commands
   keys = {
     -- Git Status & Commit
     { "<leader>gc", "<cmd>Git commit -v -a<CR>", desc = "Git Commit All" },

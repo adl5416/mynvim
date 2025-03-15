@@ -1,10 +1,10 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
   lazy = false,
-  branch = "v3.x", -- Use the latest stable version
+  branch = "v3.x",
   dependencies = {
     "nvim-lua/plenary.nvim",
-    "nvim-tree/nvim-web-devicons", -- Optional: for file icons
+    "nvim-tree/nvim-web-devicons",
     "MunifTanjim/nui.nvim",
   },
   config = function()
@@ -17,7 +17,6 @@ return {
         width = 30, -- Set the width of the file explorer
       },
     })
-
     -- Keybinding to toggle Neo-Tree
     vim.api.nvim_set_keymap("n", "<leader>e", ":Neotree toggle<CR>", { noremap = true, silent = true })
   end,

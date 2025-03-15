@@ -1,6 +1,5 @@
 return {
     "hrsh7th/nvim-cmp",
-    lazy = false,
     event = "InsertEnter",
     dependencies = {
       "hrsh7th/cmp-nvim-lsp",    -- LSP source
@@ -13,7 +12,7 @@ return {
     config = function()
       local cmp = require("cmp")
       local luasnip = require("luasnip")
-  
+
       cmp.setup({
         snippet = {
           expand = function(args)
@@ -33,7 +32,7 @@ return {
           { name = "path" },
         }),
       })
-  
+
       -- Enable command-line completion
       cmp.setup.cmdline("/", {
         mapping = cmp.mapping.preset.cmdline(),
@@ -41,7 +40,7 @@ return {
           { name = "buffer" }
         }
       })
-  
+
       cmp.setup.cmdline(":", {
         mapping = cmp.mapping.preset.cmdline(),
         sources = cmp.config.sources({
@@ -52,4 +51,4 @@ return {
       })
     end,
   }
-  
+
