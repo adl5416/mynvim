@@ -80,3 +80,7 @@ vim.opt.smartindent = true          -- Enable smart indentation
 
 vim.opt.swapfile = false            -- Disable swap files
 vim.opt.backup = false              -- Disable backup files
+
+ -- Enable hybrid line numbers
+vim.wo.number = true
+vim.wo.relativenumber = true
