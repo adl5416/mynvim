@@ -7,3 +7,4 @@ require("config.lazy")
 
 -- Set the default theme
 vim.cmd("colorscheme carbonfox")
+

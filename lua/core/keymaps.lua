@@ -7,3 +7,6 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 vim.keymap.set("n", "<leader>q", "<cmd>q<CR>", { desc = "Close Window" })
 
+ -- Enable hybrid line numbers
+vim.wo.number = true
+vim.wo.relativenumber = true
